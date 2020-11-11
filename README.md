@@ -1,13 +1,11 @@
 # Ukkonen's Algorithm
-Optimized Python implementation of Ukkonen's algorithm which constructs a suffix tree in linear time.
-
+Optimized Python implementation of Ukkonen's algorithm which constructs a suffix tree in linear time.\
 The naive O(N^3) version is first built, then optimized by applying the 4 tricks.
 
 ## Time complexity
-- Best case  = O(N)
-- Worst case = O(N)
-
-N - The length of the text
+- Best case: O(N)
+- Worst case: O(N)
+  - N - The length of the text
 
 Best case and Worst case are the same because there are 2N iterations (i and j) for a given text.
 
